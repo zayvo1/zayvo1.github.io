@@ -56,11 +56,11 @@ $(function () {
     
     // TODO 3
     // Create cannons
-    
+    createCannon("left", 250, 1000); // cannon on left wall, 600px down, shooting once per second 
     // You must decide the wall you want the cannon on, the position on the wall, and the time between shots in milliseconds
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay)
-
+    createCannon("top", 600, 1000); 
 
 
 
